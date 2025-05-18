@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Load a dataset of news articles (fake vs real)
+# Replace 'news_dataset.csv' with your actual file path
+df = pd.read_csv('news_dataset.csv')
+
+# Display the first few rows of the dataset
+print("Sample data:")
+print(df.head())
+
+# Print dataset summary
+print("\nDataset info:")
+print(df.info())
+
+# Print the core message
+print("\nExposing the truth with advanced fake news detection powered by natural language processing")
