@@ -1,0 +1,27 @@
+/* Style for the body of the page */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 60px;
+  margin: 0;
+}
+
+/* Style for the headline container */
+.headline {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  display: inline-block;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Style for the actual text */
+.headline h1 {
+  font-size: 26px;
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1.5;
+}
